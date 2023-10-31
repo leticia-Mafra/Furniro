@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.Octeto{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    align-items: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px; 
+  }
+  .row2{
+    display: flex;
+    align-items: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px; 
+  }
+  .titulo-principal{
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:#3a3a3a;
+    font-size: 24px;
+  }
+  .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:#3a3a3a;
+    font-size: 34px;
+    margin: 0%;
+    padding-top: 45px;
+  }
+  .texto{
+    display: flex;
+    align-items: right;
+    justify-content: left;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #898989;
+  }
+  .titulo-preco{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:#3a3a3a;
+    font-size: 20px;
+    margin: 0%;
+  }
+  .texto-preco{
+    display: flex;
+    align-items: right;
+    justify-content: left;
+    padding-left: 15px;
+    padding-top: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #b0b0b0;
+    text-decoration:line-through;
+    margin: 0%;
+  }
+  .Singular{
+    display: flex;
+   margin: 10%;
+  }
+  .espaco{
+    background-color: #f4f5f7;
+    margin-top: -40px;
+  }
+  .preco{
+    display: flex;
+    flex-direction: row;
+  }
+  .separar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 3%; 
+}
+.botaoVerMais{
+    margin-bottom: 6%;
+    margin-top: 1%;
+    font-family: 'Poppins', sans-serif;
+    color:#B88E2F;
+    font-size: 15px;  
+    padding-inline: 6%;
+    padding-block: 1%;
+    margin-left: 509px;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-color: #B88E2F;
+    font-weight: bold;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+  }

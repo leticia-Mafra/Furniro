@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.inspiration{
+    background-color: #FCF8F3;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.inspirationImg{
+    display: flex;
+}
+.inspiration1{
+    width: 400px;
+    height: 582px;
+    margin-inline-end: 2%;
+}
+.inspiration2{
+    width: 372px;
+    height: 468px
+}
+.inspirationTexto{
+    margin-inline: 60px;
+    font-family: Poppins;
+}
+.textoRooms{
+    font-weight: bold;
+    font-size: 34px;
+    margin: 0;
+}
+.inspiration {
+  column-gap: 10px;
+}
+
+.inspirationImg img {
+  width: 100%;
+  height: auto;
+}
+
+.textoRooms {
+  font-size: 24px;
+}
+
+.textoDesign {
+  font-size: 14px;
+}
